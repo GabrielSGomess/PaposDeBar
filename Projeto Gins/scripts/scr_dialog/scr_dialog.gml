@@ -1,9 +1,9 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function scr_texts(){
-	switch npc_name{
+		switch npc_name{
 		case  "Roberta":
-			ds_grid_add_text("Roberta", spr_portraittest1, 0, "Character t1")
+			ds_grid_add_text("Roberta", spr_character, 0, "Character t1")
 			ds_grid_add_text("Npc test", spr_portraittest4, 1, "Character t2")
 			ds_grid_add_text("Npc test2", spr_portraittest2, 1, "Character t1")
 			ds_grid_add_text("Npc test3", spr_portraittest3, 1, "Character t1")

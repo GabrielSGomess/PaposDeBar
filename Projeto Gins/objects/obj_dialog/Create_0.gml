@@ -11,5 +11,9 @@ enum Infos{
 npc_name = " ";
 grid_text = ds_grid_create(4, 0);
 page = 0;
+
 start = false;
+
+character = false;
+alarm[0] = 1; 
 #endregion

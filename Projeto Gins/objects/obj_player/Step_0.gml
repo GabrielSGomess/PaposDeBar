@@ -1,5 +1,5 @@
 /// @description Set movement
-scr_character_movement();
+scr_player_movement();
 
 #region Dialog
 if distance_to_object(obj_parnpc) <= 10{
