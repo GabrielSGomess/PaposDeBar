@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_npc",
-    "path": "sprites/spr_npc/spr_npc.yy",
+    "name": "spr_npc_roberta",
+    "path": "sprites/spr_npc_roberta/spr_npc_roberta.yy",
   },
   "spriteMaskId": null,
   "visible": true,
