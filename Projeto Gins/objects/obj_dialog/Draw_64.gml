@@ -8,7 +8,7 @@ if start == true{
 	var _yy = _guih - 200;
 	var _c = c_black
 	var _sprite =  grid_text[# Infos.Portrait, page];
-	var _text = string_copy(grid_text[# Infos.Name, page], 0, character);
+	var _text = string_copy(grid_text[# Infos.Text, page], 0, character);
 	draw_set_font(font_text);
 
 	//Left side

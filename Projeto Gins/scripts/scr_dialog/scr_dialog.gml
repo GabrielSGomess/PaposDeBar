@@ -8,6 +8,10 @@ function scr_texts(){
 			ds_grid_add_text("Npc test2", spr_portraittest2, 1, "Character t1")
 			ds_grid_add_text("Npc test3", spr_portraittest3, 1, "Character t1")
 		break;
+		
+		case "Sofia":
+			ds_grid_add_text("Acho que era isso para mim essa noite,já tá ficando tarde e eu já tomei a minha dose do dia.", spr_npc_sofia, 1, "Sofia");
+		break;
 	}
 }
 

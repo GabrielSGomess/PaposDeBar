@@ -16,7 +16,7 @@ if (keyboard_check_pressed(vk_enter)) {
     var selected_text = menu_options[selected_option];
     switch (selected_text) {
         case "Começar Jogo":
-			room_goto(rm_game);
+			room_goto(rm_bar);
             break;
         case "Opções":
             break;

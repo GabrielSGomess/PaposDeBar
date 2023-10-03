@@ -51,6 +51,7 @@
     {"id":{"name":"_2","path":"sprites/_2/_2.yy",},},
     {"id":{"name":"Sequence3","path":"sequences/Sequence3/Sequence3.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_npc_sofia","path":"objects/obj_npc_sofia/obj_npc_sofia.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"font_text","path":"fonts/font_text/font_text.yy",},},
     {"id":{"name":"spr_antonio","path":"sprites/spr_antonio/spr_antonio.yy",},},
