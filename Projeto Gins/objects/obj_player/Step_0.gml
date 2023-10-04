@@ -1,7 +1,7 @@
 /// @description Set movement
 #region Character movement
 
-if instance_exists(obj_dialog) {
+if (global.dialog) {
 	spd = 0;
 } else {
 	spd = 3;
@@ -26,7 +26,7 @@ if hspd = 0 {
 }
 #endregion
 #region Dialog
-if !instance_exists(obj_dialog){
+if (!global.dialog){
 	if distance_to_object(obj_parnpc) <= 10{
 		if keyboard_check_pressed(ord("Z")){
 			var _npc = instance_nearest(x, y, obj_parnpc);
