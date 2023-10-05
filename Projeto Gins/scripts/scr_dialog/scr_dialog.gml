@@ -4,9 +4,9 @@ function scr_texts(){
 		switch npc_name{
 		case "Roberta":
 			ds_grid_add_text("Acho que era isso para mim essa noite,já tá ficando tarde e eu já tomei a minha dose do dia. Valeu pela companhia Roberta. Quer que eu leve a Larissa de volta para o dormitório comigo? Não quero deixar ela aqui desse jeito.", spr_player_portait, 0, "SOFIA (1 DOSE)")			
-			ds_grid_add_text("Que isso SOFIA, fica tranquila quanto a isso. Eu e a RAFAELA levamos ela com a gente quando irmos embora, confia em mim.", spr_player_portait, 1, "ROBERTA (0 DOSES)")
+			ds_grid_add_text("Que isso SOFIA, fica tranquila quanto a isso. Eu e a RAFAELA levamos ela com a gente quando irmos embora, confia em mim.", spr_npc_rafaela, 1, "ROBERTA (0 DOSES)")
 			ds_grid_add_text("Tem certeza que não precisa de ajuda? Eu não me importo de levar ela comigo.", spr_player_portait, 0, "SOFIA (1 DOSE)")
-			ds_grid_add_text("Sim sim, esse é o aniversário da Rafaela, vou ficar de olhos nelas e deixar ela aproveitar o dia mais um tempinho. Vai ficar tudo bem, okay, eu juro. Te vejo mais tarde no dormitório?", spr_player_portait, 1, "ROBERTA (0 DOSES)")
+			ds_grid_add_text("Sim sim, esse é o aniversário da Rafaela, vou ficar de olhos nelas e deixar ela aproveitar o dia mais um tempinho. Vai ficar tudo bem, okay, eu juro. Te vejo mais tarde no dormitório?", spr_npc_rafaela, 1, "ROBERTA (0 DOSES)")
 			ds_grid_add_text("... Okay, tudo bem. Te vejo depois.", spr_player_portait, 0, "SOFIA (1 DOSE)");
 		break;
 		

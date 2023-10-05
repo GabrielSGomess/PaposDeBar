@@ -6,7 +6,7 @@ if start == false{
 	start = true;
 }
 
-if mouse_check_button_pressed(mb_left){
+if keyboard_check_pressed(ord("Z")){
 	if character < string_length(grid_text[# Infos.Text, page]){
 		character = string_length(grid_text[# Infos.Text, page])
 	} else {
