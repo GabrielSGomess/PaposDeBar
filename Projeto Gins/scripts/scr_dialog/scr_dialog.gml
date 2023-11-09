@@ -4,17 +4,17 @@ function scr_texts(){
 		switch npc_name{
 		case "Roberto":
 			ds_grid_add_text("Roberto ainda não tomou uma dose, ele quer tomar uma mas ele tem consciência que ele não pode beber sem limites!", spr_player_portait, 0, "SOFIA (1 DOSE)")			
-			ds_grid_add_text("Quero apenas uma dose whisky, não posso passar dos limites!", spr_npc_carlos, 1, "ROBERTO (0 DOSES)")
+			ds_grid_add_text("Quero apenas uma dose whisky, não posso passar dos limites!", spr_npc_roberto, 1, "ROBERTO (0 DOSES)")
 		break;
 		
 		case "Claudinha":
-			ds_grid_add_text("A Claudinha tomou uma dose, ela sabe que precisa alternar bebidas alcoólicas com não alcoólicas.", spr_npc_carlos, 0, "SOFIA (1 DOSE)");
+			ds_grid_add_text("A Claudinha tomou uma dose, ela sabe que precisa alternar bebidas alcoólicas com não alcoólicas.", spr_npc_roberto, 0, "SOFIA (1 DOSE)");
 			ds_grid_add_text("Ah sim ... irei pegar um suquinho!", spr_npc_claudinha, 1, "CLAUDINHA (1 DOSE)");
 		break;
 		
 		case "7 Doses":
 			ds_grid_add_text("Esse homem bebeu 7 doses, acabou bebendo demais e ele está arriscando sua saúde", spr_player_portait, 0, "SOFIA (1 DOSE)");		
-			ds_grid_add_text("Num to nãão! To nuuuma boua.", spr_npc_carlos, 1, "ROBERTA (0 DOSES)");
+			ds_grid_add_text("Num to nãão! To nuuuma boua.", spr_npc_roberto, 1, "ROBERTA (0 DOSES)");
 			ds_grid_add_text("Ele claramente não tá numa boa, você bebeu demais.", spr_player_portait, 0, "SOFIA (1 DOSE)");
 		break;
 		
