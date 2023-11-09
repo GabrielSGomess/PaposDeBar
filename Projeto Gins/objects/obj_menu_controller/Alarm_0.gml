@@ -1,3 +1,3 @@
 /// @description
 
-room_goto(rm_bar);
+room_goto(rm_blackBackground);

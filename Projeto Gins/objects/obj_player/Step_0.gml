@@ -7,17 +7,16 @@ if place_meeting(x+hspd,y,obj_wall){
 		}
    hspd = 0;
 }
-x += hspd;
 
+x += hspd;
 
 if (global.dialog) {
-	hspd = 0;
+	spd = 0;
 } else {
-	hspd = 3;
+	spd = 5;
 }
-hspd = (right - left) *spd;
 
-x += hspd;
+hspd = (right - left) *spd;
 
 //Set control
 
@@ -44,5 +43,14 @@ if (!global.dialog){
 		}
 	}
 }
+
+if (!global.dialog){
+	if place_meeting(x, y, obj_end_event){
+		var _npc = instance_nearest(x, y, obj_end_event);
+		var _dialog = instance_create_layer(x, y, "Dialog", obj_dialog);
+		_dialog.npc_name = _npc.name_;
+	}
+}
+
 
 #endregion
